@@ -1,0 +1,445 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+
+    box-sizing: inherit;
+}
+.cartelitorow{
+    --bs-gutter-x: 0rem;
+}
+.outline-success{
+    --bs-btn-color: #fff;
+}
+nav.navbar{
+    margin: auto;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: large;
+    background-color: rgb(27, 26, 26);
+    
+}
+.navbar-toggler-icon {
+    background-color: #ffffff4f;
+    float: right;
+  } 
+.carruselboton{
+   background-color:rgb(27, 26, 26);
+   width: 1294px;
+   --bs-btn-hover-bg:rgb(27, 26, 26);
+   --bs-btn-border-color:rgb(27, 26, 26);
+   --bs-btn-hover-border-color:#FF720B;
+}
+
+.carruselboton:hover {
+    background-color:#FF720B;
+    transition: 0.7s;
+}
+.error404{
+    margin: auto;
+    display: block;
+    width: 500px;
+    --bs-gutter-x: 0rem; 
+    --bs-gutter-y: 0rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: large;
+  
+}
+.letrapre{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: large;
+}
+.botonerror{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: large;
+    margin-left: 180px;
+    background-color:#48CAE4;
+    color: rgb(245, 245, 245);
+}
+.card{
+    font-family: 'Noto Sans', sans-serif;
+    float: right;
+    height: 40px;
+    width: 40px;
+}
+.textocaru{
+    margin-top: 10px;
+}
+.carousel-item{
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+.form{
+    margin-bottom: 7px;
+}
+.navbar-brand{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.nav-item{
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+ 
+.active{
+color: white;
+}
+
+
+a.nav-link{
+    color: inherit;
+    text-decoration: none;
+    background:
+      linear-gradient(
+        to right,
+        rgba(100, 200, 200, 1),
+        rgba(100, 200, 200, 1)
+      ),
+      linear-gradient(
+        to right,
+        rgba(255, 0, 0, 1),
+        rgba(255, 0, 180, 1),
+        rgba(0, 100, 200, 1)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+  }
+
+
+a.nav-link:hover {
+    background-size: 0 3px, 100% 3px;
+  }
+.img-fluid{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+div.card{
+    width: 200px;
+    height: auto;
+}
+.botonenviarcontacto{
+    margin-left: 20px;
+  }
+  .contactanos{
+    float: left;
+    margin: auto;
+    display: block;
+    width: 500px;
+    --bs-gutter-x: -20rem; 
+    --bs-gutter-y: 0rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: large;
+  
+  }
+  .container-fluid-cartelitocontacto{
+    margin-top: -80px;
+    max-width: 100%;
+   /*margin: 0 auto;*/
+   /*margin-left: 130px;*/
+  }
+  .columnacontacto{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: large;
+  }
+.contenedorcartelito{
+    width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top:50px;
+}
+
+
+.container-fluid-cartelito{
+    max-width: 100%;
+   /*margin: 0 auto;*/
+   /*margin-left: 130px;*/
+}
+.cartas{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.navegadorfoot{
+    margin: auto;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: large;
+    background-color: rgb(27, 26, 26);
+}
+.logofooter{
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+    overflow: hidden;
+    margin-top: -6px;  
+}
+
+/*comienza lo de pencia*/
+
+.card-body1{
+    margin: auto;
+}
+
+.text-parrafo2{
+    text-align: center;
+    margin-top: 13px;
+}
+
+.sabermas{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 17px;}
+
+.modal-title{
+    font-size: 25px; 
+    font-weight: bold}
+.card-title{font-weight: bold}
+
+.img-thumbnail{
+    width: 180px;
+    float: left;}
+
+.sabermasboton{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 100px;}
+.sabermasboton:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 100px;}
+.sabermasboton:active {
+    color: #000}
+.sabermasboton:active:after {
+        background: transparent; }
+.sabermasboton:hover:before {
+    opacity: 1;}
+.sabermasboton:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 100px;} 
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }}
+
+
+.modal-content{
+    width: 625px;
+  ;
+
+   
+}
+.modal-dialog{
+    width: 625px;
+
+}
+
+
+.modal-body{
+  width: 650px;
+}
+
+/*comienza footer*/
+.footer-distributed{
+	background-color: rgb(27, 26, 26);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 22px 'Noto Sans';
+	text-align: center;
+	padding: 10px 10px 10px;
+	overflow: hidden;
+}
+
+.footer1 {
+  width: 100%;
+  display: inline-block;
+  height: 300px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+/* Footer center */
+
+.footer-distributed .footer-center{
+	float: center;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:#FF720B;
+    font-family: 'Noto Sans';
+	font-size: 22px;
+	font-weight: normal;
+	margin: auto;
+    margin-top: 15px;
+}
+
+/* Footer social icons */
+
+.iconoinsta{
+	margin: auto;
+}
+
+.iconoinsta a{
+	display: inline-block;
+	height: 10px;
+	cursor: pointer;
+	border-radius: 2px;
+
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+.fotoinsta{
+    width: 200px;
+    margin-bottom: 25px;
+}
+.contacto1{
+    margin-top: 5px;
+    color:#EB0D46;
+    font-family: 'Noto Sans';
+	font-size: 22px;
+	font-weight: normal;
+	margin: auto;
+}
+.contacto1:hover {
+    color:#fdfdfd ;
+  }
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		font: bold 22px 'Noto Sans';
+
+	}
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+	}
+.logofooter{
+    margin-bottom: 10px;
+}
+
+	.footer-distributed .footer-center{
+		margin-bottom: 40px;
+	}
+}
+
+/*mariano*/
+
+div.cuerpo1{
+   width: 440px;
+   margin: auto;
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+.cuerpo{
+    width: 430px;
+}
+.fotocard{
+    width: 410px;
+    margin: auto;
+    margin-top: 12px;
+}
+.personaje1{
+    margin-right: 9px;
+    margin-left: 9px;
+}
+
+/*kuki*/
+
+.kaq {
+    display: block;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 15ch;
+    font-size: 50px;
+    animation: typing 2s steps(15), blink .8s infinite step-end alternate;
+    overflow:hidden;
+    background: #ccc;
+    background: radial-gradient(#C2540E,#C03A4C, #9F3E73);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    align-content: center;
+    margin-left: 100px;
+    top: 35px;
+    position: relative;
+
+    }
+    
+    @keyFrames typing {
+    
+    from { width: 0}
+    }
+    
+    @keyFrames blink {
+     50% { border-color: transparent}
+    }
+
+    .cuadrado{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    width: 600px;
+    height: 150px;
+    background: white;
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    
+
+    box-shadow: 6px 6px rgb(107, 107, 107);
+
+}
